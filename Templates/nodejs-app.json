@@ -1,0 +1,11 @@
+{
+    "source_image": "node:alpine",
+    "pre_commands": [
+    ],
+    "destination": "/project",
+    "post_commands": [
+        "npm install"
+    ],
+    "working_directory": "/project",
+    "cmd": "node ."
+}
